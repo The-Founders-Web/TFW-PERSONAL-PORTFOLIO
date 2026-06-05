@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio of Pulkit Pareek - Creative developer and designer building high-performance web systems and elegant interactive digital experiences.">
+    <link rel="stylesheet" href="style.css">
+    <title>Pulkit Pareek | Creative Developer Portfolio</title>
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar"></div>
+    </div>
+
+    <!-- Simulated Loader Cover -->
+    <div class="loader">
+        <h2>PULKIT PAREEK</h2>
+        <div class="loader-bar">
+            <div class="loader-progress"></div>
+        </div>
+    </div>
+
+    <!-- Header (Vogue-Inspired styling, Portfolio structure) -->
+    <header>
+        <div class="masthead-top">
+            <div class="logo-container">
+                <a href="#hero" class="logo-text interactive" id="brand-logo">Pulkit Pareek</a>
+                <div class="logo-sub">CREATIVE DEVELOPER</div>
+            </div>
+            <button class="theme-toggle-btn interactive" id="theme-toggle" aria-label="Toggle visual theme">DARK MODE</button>
+        </div>
+        
+        <nav class="navigation-bar">
+            <ul class="navigation-links">
+                <li><a href="#hero" class="nav-link interactive" id="nav-cover">HOME</a></li>
+                <li><a href="#education" class="nav-link interactive" id="nav-education">EDUCATION</a></li>
+                <li><a href="#hobbies" class="nav-link interactive" id="nav-hobbies">HOBBIES</a></li>
+                <li><a href="#achievements" class="nav-link interactive" id="nav-achievements">ACHIEVEMENTS</a></li>
+                <li><a href="#contact" class="nav-link interactive" id="nav-contact">CONTACT ME</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Container -->
+    <main>
+        
+        <!-- SECTION 1: HERO (Creative Profile Spread) -->
+        <section class="hero-section" id="hero">
+            <div class="hero-editorial-left">
+                <span class="hero-subtitle">WELCOME TO MY PORTFOLIO</span>
+                <h1 class="hero-main-title">BUILDING COGNITIVE EXPERIENCES WITH CLEAN CODE</h1>
+                <p class="hero-description">
+                    I am a developer and designer specializing in creating highly interactive, visual, and premium web environments. Combining computer science fundamentals with editorial typography, I engineer interfaces that feel responsive and alive.
+                </p>
+                <div class="hero-cta-group">
+                    <a href="#contact" class="cta-button cta-primary interactive" id="hero-cta-contact">GET IN TOUCH</a>
+                    <a href="#achievements" class="cta-button cta-secondary interactive" id="hero-cta-works">VIEW MILESTONES</a>
+                </div>
+            </div>
+            
+            <div class="hero-editorial-right">
+                <div class="hero-image-wrapper">
+                    <img src="photo.png" class="hero-image" alt="Portrait of Pulkit Pareek">
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- SECTION 2: EDUCATION (Academic Chronology) -->
+        <section id="education">
+            <div class="section-header">
+                <div style="display: flex; align-items: baseline; gap: 1rem;">
+                    <span class="section-number">01</span>
+                    <h2 class="section-title">Academic Chronology</h2>
+                </div>
+                <span class="section-tagline">CURRICULUM VITAE</span>
+            </div>
+            
+            <div class="education-layout">
+                <div class="education-editorial-left">
+                    <div class="education-quote-card">
+                        <h3 class="education-quote-title">"Education is the passport to the future, for tomorrow belongs to those who prepare for it today."</h3>
+                        <span class="education-quote-author">— Malcolm X</span>
+                    </div>
+                </div>
+                
+                <div class="education-timeline">
+                    <div class="education-card">
+                        <div class="education-year">
+                            2023
+                            <span class="education-year-duration">PRESENT</span>
+                        </div>
+                        <div class="education-details">
+                            <div>
+                                <span class="education-institution">INDIAN INSTITUTE OF TECHNOLOGY</span>
+                                <h4 class="education-degree">B.Tech in Computer Science</h4>
+                            </div>
+                            <p class="education-desc">
+                                Focusing on modern algorithm design, machine learning architectures, and human-computer interaction models. Active researcher in the design systems automation lab.
+                            </p>
+                            <div class="education-extra">
+                                <span class="education-badge">GPA 9.4/10</span>
+                                <span class="education-badge">Algorithms</span>
+                                <span class="education-badge">UI/UX Systems</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="education-card">
+                        <div class="education-year">
+                            2021
+                            <span class="education-year-duration">2023</span>
+                        </div>
+                        <div class="education-details">
+                            <div>
+                                <span class="education-institution">PRE-UNIVERSITY SCHOOLING</span>
+                                <h4 class="education-degree">Higher Secondary School</h4>
+                            </div>
+                            <p class="education-desc">
+                                Specialized in Mathematics, Physics, and Chemistry. Won the regional physics exhibition award for design of clean energy simulation software.
+                            </p>
+                            <div class="education-extra">
+                                <span class="education-badge">96.8% Aggregate</span>
+                                <span class="education-badge">Math Champion</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- SECTION 3: HOBBIES (Creative Passions Showcase) -->
+        <section id="hobbies">
+            <div class="section-header">
+                <div style="display: flex; align-items: baseline; gap: 1rem;">
+                    <span class="section-number">02</span>
+                    <h2 class="section-title">Creative Passions</h2>
+                </div>
+                <span class="section-tagline">BEYOND THE CODE</span>
+            </div>
+            
+            <div class="hobbies-grid">
+                <!-- Hobby 1: Photography -->
+                <div class="hobby-card">
+                    <div class="hobby-image-box">
+                        <svg viewBox="0 0 400 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="260" fill="#eae4d3" />
+                            <circle cx="200" cy="130" r="60" stroke="#000000" stroke-width="1.5" opacity="0.3"/>
+                            <circle cx="200" cy="130" r="45" stroke="#000000" stroke-width="1" opacity="0.5"/>
+                            <circle cx="200" cy="130" r="10" fill="#8c7853"/>
+                            <line x1="120" y1="130" x2="280" y2="130" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+                            <line x1="200" y1="50" x2="200" y2="210" stroke="#000000" stroke-width="0.5" opacity="0.4"/>
+                            <path d="M150 90 H250 V170 H150 Z" stroke="#000000" stroke-width="1.5" opacity="0.6"/>
+                        </svg>
+                        <div class="hobby-image-overlay"></div>
+                    </div>
+                    <div class="hobby-details">
+                        <div>
+                            <span class="hobby-category">VISUAL ART</span>
+                            <h3 class="hobby-title">Digital Aperture</h3>
+                        </div>
+                        <p class="hobby-desc">
+                            Exploring street architectural geometry, micro-contrast, and shadow patterns under natural light conditions.
+                        </p>
+                        <a href="#" class="hobby-explore interactive" id="hobby-photo-link">EXPLORE PORTFOLIO</a>
+                    </div>
+                </div>
+
+                <!-- Hobby 2: Brewing -->
+                <div class="hobby-card">
+                    <div class="hobby-image-box">
+                        <svg viewBox="0 0 400 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="260" fill="#e2dccb" />
+                            <path d="M170 180 C170 190 230 190 230 180 V100 H170 Z" stroke="#000000" stroke-width="1.5" opacity="0.6"/>
+                            <path d="M230 120 H245 C255 120 255 145 245 145 H230" stroke="#000000" stroke-width="1.5" opacity="0.6"/>
+                            <path d="M185 80 Q190 60 195 80" stroke="#8c7853" stroke-width="2" opacity="0.7"/>
+                            <path d="M200 80 Q205 60 210 80" stroke="#8c7853" stroke-width="2" opacity="0.7"/>
+                            <path d="M215 80 Q220 60 225 80" stroke="#8c7853" stroke-width="2" opacity="0.7"/>
+                            <line x1="140" y1="200" x2="260" y2="200" stroke="#000000" stroke-width="2" opacity="0.5"/>
+                        </svg>
+                        <div class="hobby-image-overlay"></div>
+                    </div>
+                    <div class="hobby-details">
+                        <div>
+                            <span class="hobby-category">CRAFT</span>
+                            <h3 class="hobby-title">Coffee Roasting</h3>
+                        </div>
+                        <p class="hobby-desc">
+                            Studying extraction ratios, single-origin flavor profiles, and sensory notes of high-altitude beans.
+                        </p>
+                        <a href="#" class="hobby-explore interactive" id="hobby-coffee-link">VIEW MY RECIPES</a>
+                    </div>
+                </div>
+
+                <!-- Hobby 3: Synthesizer -->
+                <div class="hobby-card">
+                    <div class="hobby-image-box">
+                        <svg viewBox="0 0 400 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="260" fill="#dfd8c4" />
+                            <path d="M80 130 H320" stroke="#000000" stroke-width="1" opacity="0.2"/>
+                            <!-- Waveform path -->
+                            <path d="M80 130 Q110 50 140 130 T200 130 T260 130 T320 130" stroke="#8c7853" stroke-width="2" opacity="0.8"/>
+                            <path d="M80 130 Q110 180 140 130 T200 130 T260 130 T320 130" stroke="#000000" stroke-width="1" opacity="0.4" stroke-dasharray="4"/>
+                            <circle cx="140" cy="130" r="4" fill="#000000"/>
+                            <circle cx="200" cy="130" r="4" fill="#000000"/>
+                            <circle cx="260" cy="130" r="4" fill="#000000"/>
+                        </svg>
+                        <div class="hobby-image-overlay"></div>
+                    </div>
+                    <div class="hobby-details">
+                        <div>
+                            <span class="hobby-category">AUDIO DESIGN</span>
+                            <h3 class="hobby-title">Ambient Synthesis</h3>
+                        </div>
+                        <p class="hobby-desc">
+                            Crafting minimalist acoustic landscapes, FM frequency modulation sounds, and cinematic score textures.
+                        </p>
+                        <a href="#" class="hobby-explore interactive" id="hobby-music-link">LISTEN ON SOUNDCLOUD</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- SECTION 4: ACHIEVEMENTS (Honors & Recognition) -->
+        <section id="achievements">
+            <div class="section-header">
+                <div style="display: flex; align-items: baseline; gap: 1rem;">
+                    <span class="section-number">03</span>
+                    <h2 class="section-title">Selected Achievements</h2>
+                </div>
+                <span class="section-tagline">HONORS & METRICS</span>
+            </div>
+            
+            <div class="achievements-grid">
+                <div class="achievements-featured">
+                    
+                    <div class="achievement-row">
+                        <span class="achievement-index">I</span>
+                        <div class="achievement-content-box">
+                            <div class="achievement-heading-group">
+                                <h3 class="achievement-headline">Winner of Smart India Hackathon</h3>
+                                <span class="achievement-date">DECEMBER 2025</span>
+                            </div>
+                            <p class="achievement-paragraph">
+                                Led a collaborative team of developer engineers to code a decentralized resource ledger. Resolved high throughput block synchronization challenges, earning first place among hundreds of participant panels.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="achievement-row">
+                        <span class="achievement-index">II</span>
+                        <div class="achievement-content-box">
+                            <div class="achievement-heading-group">
+                                <h3 class="achievement-headline">IEEE Publication: Generative Layout Automation</h3>
+                                <span class="achievement-date">MARCH 2026</span>
+                            </div>
+                            <p class="achievement-paragraph">
+                                Researched and published code abstractions detailing autonomous layout synthesis models using low-weight transformer pipelines, improving generation speed and layout safety constraints.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="achievement-row">
+                        <span class="achievement-index">III</span>
+                        <div class="achievement-content-box">
+                            <div class="achievement-heading-group">
+                                <h3 class="achievement-headline">Young Designer's Excellence Prize</h3>
+                                <span class="achievement-date">OCTOBER 2024</span>
+                            </div>
+                            <p class="achievement-paragraph">
+                                Awarded by the national digital media design guild for producing a series of bespoke visual interfaces showing state-of-the-art responsive composition and interactive grid design.
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <aside class="achievements-aside">
+                    <div class="aside-card">
+                        <h3 class="aside-card-title">10k+ Open Source Contributions</h3>
+                        <p class="aside-card-desc">
+                            Developing and maintaining UI component layouts and design libraries referenced by developers in over 40 countries.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- SECTION 5: CONTACT ME (Refined Details Layout) -->
+        <section id="contact">
+            <div class="section-header">
+                <div style="display: flex; align-items: baseline; gap: 1rem;">
+                    <span class="section-number">04</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                </div>
+                <span class="section-tagline">COLLABORATION PORTAL</span>
+            </div>
+            
+            <div class="contact-layout">
+                <div class="contact-editorial">
+                    <h3 class="contact-headline">LET'S BUILD THE FUTURE TOGETHER.</h3>
+                    <p class="hero-description" style="margin-bottom: 2rem;">
+                        I am always open to discussing new projects, design systems, or creative opportunities. Reach out via email, phone, or connect with me on social media. Let's create something meaningful.
+                    </p>
+                    <div class="socials-grid">
+                        <a href="https://github.com" target="_blank" rel="noopener" class="social-link interactive" id="social-github">GITHUB</a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-link interactive" id="social-linkedin">LINKEDIN</a>
+                        <a href="https://behance.net" target="_blank" rel="noopener" class="social-link interactive" id="social-behance">BEHANCE</a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener" class="social-link interactive" id="social-twitter">TWITTER</a>
+                    </div>
+                </div>
+                
+                <div class="contact-details-panel">
+                    <div class="contact-info-list-refined">
+                        <div class="contact-info-card">
+                            <span class="contact-info-label">WRITE TO ME</span>
+                            <a href="mailto:pulkit.pareek@example.com" class="contact-info-value interactive" id="contact-email-val">pulkit.pareek@example.com</a>
+                        </div>
+                        <div class="contact-info-card">
+                            <span class="contact-info-label">CALL ME</span>
+                            <a href="tel:+919876543210" class="contact-info-value interactive" id="contact-phone-val">+91 98765 43210</a>
+                        </div>
+                        <div class="contact-info-card">
+                            <span class="contact-info-label">LOCATION</span>
+                            <span class="contact-info-value-static">Jaipur, Rajasthan, India</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <a href="#hero" class="footer-logo interactive" id="footer-brand">PULKIT PAREEK</a>
+                <p class="footer-tagline">CREATIVE DEVELOPER & UI DESIGNER</p>
+                <p class="footer-copy" style="margin-top: 1.5rem;">&copy; 2026 Pulkit Pareek. All Rights Reserved.</p>
+            </div>
+            
+            <div class="footer-right">
+                <ul class="footer-links">
+                    <li><a href="#hero" class="footer-link interactive" id="footer-nav-cover">HOME</a></li>
+                    <li><a href="#education" class="footer-link interactive" id="footer-nav-edu">EDUCATION</a></li>
+                    <li><a href="#hobbies" class="footer-link interactive" id="footer-nav-hob">HOBBIES</a></li>
+                    <li><a href="#achievements" class="footer-link interactive" id="footer-nav-ach">ACHIEVEMENTS</a></li>
+                    <li><a href="#contact" class="footer-link interactive" id="footer-nav-con">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- GSAP Animations CDNs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- Core logic script -->
+    <script src="script.js"></script>
+</body>
+</html>
